@@ -1,9 +1,12 @@
 import React from 'react';
+import PaperSheet from './Paper';
 
-const homeApp = () => {
+const HomeApp = () => {
     return (
-        <div></div>
+        <React.Fragment>
+            <PaperSheet />
+        </React.Fragment>
     )
 }
 
-export default homeApp;
+export default HomeApp;
