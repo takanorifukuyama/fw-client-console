@@ -33,6 +33,7 @@ const styles = {
   fullList: {
     width: 'auto',
   },
+
 };
 
 class TemporaryDrawer extends React.Component {
@@ -83,7 +84,9 @@ class TemporaryDrawer extends React.Component {
             </Toolbar>
           </AppBar>
         </div>
-        {/* <Button onClick={this.toggleDrawer('left', true)}>Open Left</Button> */}
+
+        {/* <div style={{backgroundColor: '#1a73e8'}}></div> */}
+
         <Drawer open={this.state.left} onClose={this.toggleDrawer('left', false)}>
           <div
             tabIndex={0}

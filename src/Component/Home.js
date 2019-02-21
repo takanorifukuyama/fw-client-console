@@ -4,7 +4,7 @@ import PaperSheet from './Paper';
 const HomeApp = () => {
     return (
         <React.Fragment>
-            <PaperSheet />
+            <PaperSheet card_title="All Request" />
         </React.Fragment>
     )
 }
