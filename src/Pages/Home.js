@@ -1,5 +1,5 @@
 import React from 'react';
-import PaperSheet from './Paper';
+import PaperSheet from '../Component/Paper';
 
 const HomeApp = () => {
     const first = {
