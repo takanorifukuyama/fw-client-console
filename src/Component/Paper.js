@@ -23,7 +23,7 @@ function PaperSheet(props) {
           {props.card_title}
         </Typography>
         <Typography component="p">
-          Paper can be used to build surface or other elements for your application.
+          {props.card_content}
         </Typography>
       </Paper>
     </div>

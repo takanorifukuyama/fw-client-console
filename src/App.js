@@ -8,7 +8,7 @@ import TemporaryDrawer from './Component/Topbar'
 class App extends Component {
   render() {
     return (
-      <MuiThemeProvider theme={theme}>
+      <MuiThemeProvider theme={theme} >
         <TemporaryDrawer /> 
         <HomeApp />
       </MuiThemeProvider>
