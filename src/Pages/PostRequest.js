@@ -10,7 +10,12 @@ const PostApp = () => {
 
         ),
         content: (
-            <TextField />
+            <div>
+                <TextField 
+                    label="依頼元"
+                />
+                
+            </div>
         )
     }
 
